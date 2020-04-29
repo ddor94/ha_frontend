@@ -1,0 +1,36 @@
+.header__logo {
+  &:hover {
+    background: none !important;
+  }
+
+  img {
+    max-height: 3.75rem;
+  }
+}
+
+.header__link--dropdown {
+  color: #fff;
+}
+
+.header__link {
+  font-weight: $weight-bold;
+}
+
+.header__link:hover {
+  transition: all .15s ease-in-out;
+  background: none !important;
+  color: $primary !important;
+}
+
+.header__dropdown {
+  border: none;
+}
+
+.header__no-avatar {
+  border-radius: 50%;
+  border: 2px solid $primary;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}

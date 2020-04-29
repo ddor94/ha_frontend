@@ -1,0 +1,31 @@
+.dashboard {
+  width: 100%;
+}
+
+.dashboard__form {
+  width: 40rem;
+  margin: auto;
+}
+
+.dashboard__section-title {
+  justify-content: space-between;
+  border-bottom: 1px solid $grey-lighter;
+  margin-bottom: 1.5rem;
+
+  &:not(:first-of-type) {
+    margin-top: 1.5rem;
+  }
+}
+
+.dashboard__tabs, .dashboard__content {
+  margin: 1.5rem 0;
+}
+
+.dashboard__tab-item {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  color: $primary;
+}

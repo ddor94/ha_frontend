@@ -1,0 +1,29 @@
+.SingleDatePickerInput__withBorder {
+  border-radius: 0 4px 4px 0 !important;
+  border-left: none !important;
+
+  &:hover, &:active, &:focus {
+    .SingleDatePickerInput_calendarIcon_svg {
+      transition: all .2s ease-in-out;
+      fill: $primary;
+    }
+  }
+}
+
+.DateInput_input {
+  line-height: normal !important;
+  border: none !important;
+  font-size: 16px !important;
+  padding: 11px !important;
+}
+
+.CalendarDay {
+  vertical-align: middle;
+  text-align: center !important;
+}
+
+.CalendarDay:hover, .CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background-color: $primary !important;
+  color: #fff !important;
+  border: none !important;
+}

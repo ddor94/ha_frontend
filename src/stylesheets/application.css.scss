@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+// Global variables
+$family-sans-serif: 'Roboto', sans-serif;
+$primary: #732329;
+$link: #732329;
+$input-placeholder-color: rgba(0, 0, 0, .25);
+$title-weight: 300;
+$weight-normal: 300;
+$weight-bold: 400;
+
+// Bulma
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/elements/tag.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass";
+
+// Imports
+@import "./index";
+@import "./plugins/index";

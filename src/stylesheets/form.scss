@@ -1,0 +1,61 @@
+.form--home {
+  max-width: 43.75rem;
+  width: 100%;
+  margin: auto;
+}
+
+.form__control:hover {
+  .form__input {
+    border-color: $primary;
+  }
+
+  .form__icon {
+    color: $primary;
+  }
+}
+
+.form__input {
+  box-shadow: none;
+
+  &:active, &:focus {
+    box-shadow: none !important;
+
+    ~.form__icon {
+      color: $primary !important;
+    }
+  }
+}
+
+.form__input, .form__icon {
+  transition: all .2s ease-in-out;
+}
+
+.form__input--borderless {
+  border: none !important;
+}
+
+.form__error-tag {
+  height: auto !important;
+  margin-bottom: 1.5rem;
+}
+
+.form__checkbox-box {
+  display: none;
+}
+
+.form__checkbox-content {
+  display: block;
+  padding: .5rem;
+  border: 1px solid $primary;
+  border-radius: .4rem;
+  transition: all .15s ease-in-out;
+
+  &:first-of-type {
+    margin-right: 1.5rem;
+  }
+}
+
+.form__checkbox-box:checked + .form__checkbox-content {
+  background: $primary;
+  color: #fff;
+}

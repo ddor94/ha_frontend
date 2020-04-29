@@ -1,0 +1,40 @@
+.profile__box {
+  top: 0;
+  position: sticky;
+}
+
+.profile__top {
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile__title-section {
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+}
+
+.profile__social {
+  margin: .5rem 0;
+}
+
+.profile__social-icon {
+  margin-right: .25rem;
+}
+
+.profile__row {
+  margin-bottom: 2rem;
+}
+
+.profile__row--red {
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.profile__count {
+  margin-right: 2rem;
+}
+
+.profile__style {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}

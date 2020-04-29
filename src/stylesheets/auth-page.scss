@@ -1,0 +1,8 @@
+.auth-page__column {
+  padding: 0 5rem;
+  margin: 5rem 0;
+
+  &:first-of-type {
+    border-right: 1px solid $primary;
+  }
+}

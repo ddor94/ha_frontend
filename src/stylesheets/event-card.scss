@@ -1,0 +1,8 @@
+.event-card:hover .event-card__title {
+  transition: all .2s ease-in-out;
+  color: $primary;
+}
+
+.event-card__column {
+  padding: 1.5rem;
+}
